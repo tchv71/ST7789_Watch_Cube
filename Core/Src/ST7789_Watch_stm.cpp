@@ -66,7 +66,7 @@ const unsigned char *clockface = clockface8;
 //#include "vintage240.h"
 //const unsigned char *clockface = vintage240;
 
-const unsigned char *(clockfaces[]) = { clockface8, clockface2, clockface4};
+const unsigned char *clockfaces[] = { clockface8, clockface2, clockface4};
 
 //#include "small4x6_font.h"
 
